@@ -15,3 +15,11 @@ script:
  - python sample.py
 
 archive: true
+
+notifications:
+  email:
+    recipients:
+      - shipci@outlook.com
+      - vidyac.raghav@gmail.com
+    on_success: change
+    on_failure: always
