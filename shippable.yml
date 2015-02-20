@@ -22,5 +22,5 @@ notifications:
     recipients:
       - shipci@outlook.com
       - vidyac.raghav@gmail.com
-    on_success: change
+    on_success: always
     on_failure: always
