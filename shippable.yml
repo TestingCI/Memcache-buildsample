@@ -17,7 +17,7 @@ script:
  - echo $BRANCH
 
 archive: true
-
+cache: true
 notifications:
   email:
     recipients:
