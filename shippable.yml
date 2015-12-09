@@ -2,12 +2,12 @@ language: python
 
 python:
  - "2.6"
-# -  2.7
+ -  2.7
  
 services:
  - memcached
  
-install: pip install --use-mirrors -r requirements.txt
+install: pip install -r requirements.txt
 
 env:
  - secure: Apf+EOht8ndjfBhh70yusRIltmj1O7Tnq1QiEN7vHEYX3pCPdoa00+1ReLh8AWZejsgMvJo3fFhysDMtZSROkIaNU5hhlPkcIcuwnPTpsaW/8N7yESgsPggsQEfQgkiG+Vgm3R/KPt+xkAk0IrErCyTUhK7z7Lt8u9vbDB93+wveBZgjatbIg/pV/Cblt6gL5XFV/mCciy5HrL3eJ3iyoxwketNIPA5H39DsahcLlBJhIoE5DCPlnuxh3Ct4Nk/uypjdkNDukZ4ZszHkEHmpk+SxXE4ahnGz0ef1h/AHB2FwEhGr4rqet4ML9rfllwzfEVAXUTttuk6xC11UHbsw3w==
